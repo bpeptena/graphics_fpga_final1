@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1525679345">
+  <File Type="PA-TCL" Name="dvi_tx.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="dvi_tx_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="dvi_tx_reports.tcl"/>
+  <File Type="RDS-RDS" Name="dvi_tx.vds"/>
+  <File Type="RDS-UTIL" Name="dvi_tx_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="dvi_tx_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="dvi_tx.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="dvi_tx_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="dvi_tx_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/sources/counter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/wooowbea/Desktop/Digilent/sources/counter.vhd"/>
+        <Attr Name="ImportTime" Val="1523370333"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/rst_bridge.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/wooowbea/Desktop/Digilent/sources/rst_bridge.vhd"/>
+        <Attr Name="ImportTime" Val="1523371886"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/sync_dff.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/wooowbea/Desktop/Digilent/sources/sync_dff.vhd"/>
+        <Attr Name="ImportTime" Val="1523371878"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/dvi_tx_clkgen.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/wooowbea/Desktop/Digilent/sources/dvi_tx_clkgen.vhd"/>
+        <Attr Name="ImportTime" Val="1523371969"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/rgb_timing.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/wooowbea/Desktop/Digilent/sources/rgb_timing.vhd"/>
+        <Attr Name="ImportTime" Val="1523371852"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/graphics.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/wooowbea/Desktop/Digilent/sources/graphics.vhd"/>
+        <Attr Name="ImportTime" Val="1523376870"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/rgb_pattern.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/wooowbea/Desktop/Digilent/sources/rgb_pattern.vhd"/>
+        <Attr Name="ImportTime" Val="1523376880"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/tmds_encoder.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/wooowbea/Desktop/Digilent/sources/tmds_encoder.vhd"/>
+        <Attr Name="ImportTime" Val="1523375445"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/oserdes_ddr_10_1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/wooowbea/Desktop/Digilent/sources/oserdes_ddr_10_1.vhd"/>
+        <Attr Name="ImportTime" Val="1523375832"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/rgb_to_dvi.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/wooowbea/Desktop/Digilent/sources/rgb_to_dvi.vhd"/>
+        <Attr Name="ImportTime" Val="1523376320"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/dvi_tx.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/wooowbea/Desktop/Digilent/sources/dvi_tx.vhd"/>
+        <Attr Name="ImportTime" Val="1523376596"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="dvi_tx"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/sources/arty-z7.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/wooowbea/Desktop/Digilent/sources/arty-z7.xdc"/>
+        <Attr Name="ImportTime" Val="1523344533"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
